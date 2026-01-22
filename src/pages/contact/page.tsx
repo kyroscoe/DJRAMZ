@@ -56,6 +56,20 @@ export default function ContactPage() {
       setIsSubmitting(false);
     }
   };
+  const contactInfo = [
+    {
+      icon: 'ri-mail-line',
+      title: 'Email',
+      content: 'info@rrmobilemusicentertainment.com',
+      link: 'mailto:info@rrmobilemusicentertainment.com'
+    },
+    {
+      icon: 'ri-map-pin-line',
+      title: 'Location',
+      content: 'Serving All of Texas',
+      link: null
+    }
+  ];
   const socialLinks = [
     {
       icon: 'ri-instagram-line',
@@ -101,7 +115,7 @@ export default function ContactPage() {
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+          <div className="flex flex-wrap justify-center gap-8 mb-16">
             {contactInfo.map((info, index) => (
               <div key={index} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-lg text-center">
                 <div className="w-16 h-16 flex items-center justify-center bg-red-600 rounded-full mx-auto mb-4">
