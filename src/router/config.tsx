@@ -21,10 +21,6 @@ const routes: RouteObject[] = [
     element: <BookingPage />,
   },
   {
-    path: '/about',
-    element: <AboutPage />,
-  },
-  {
     path: '/contact',
     element: <ContactPage />,
   },
