@@ -56,22 +56,6 @@ export default function ContactPage() {
       setIsSubmitting(false);
     }
   };
-
-  const contactInfo = [
-    {
-      icon: 'ri-mail-line',
-      title: 'Email',
-      content: 'info@rrmobilemusicentertainment.com',
-      link: 'mailto:info@rrmobilemusicentertainment.com'
-    },
-    {
-      icon: 'ri-map-pin-line',
-      title: 'Location',
-      content: 'Serving All of Texas',
-      link: null
-    }
-  ];
-
   const socialLinks = [
     {
       icon: 'ri-instagram-line',
