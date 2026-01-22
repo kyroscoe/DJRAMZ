@@ -303,6 +303,7 @@ export default function ContactPage() {
                   </a>
                 ))}
               </div>
+              <div>
                 <p className="text-sm text-gray-400 mt-6">
                   * Event hours are flexible based on your needs
                 </p>
