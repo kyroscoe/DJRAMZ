@@ -303,23 +303,6 @@ export default function ContactPage() {
                   </a>
                 ))}
               </div>
-
-              <div className="mt-12 bg-gradient-to-br from-gray-900 to-black rounded-2xl p-8 text-white">
-                <h3 className="text-2xl font-bold mb-4">Business Hours</h3>
-                <div className="space-y-3">
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Monday - Friday</span>
-                    <span className="font-semibold">9:00 AM - 8:00 PM</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Saturday</span>
-                    <span className="font-semibold">10:00 AM - 10:00 PM</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Sunday</span>
-                    <span className="font-semibold">12:00 PM - 6:00 PM</span>
-                  </div>
-                </div>
                 <p className="text-sm text-gray-400 mt-6">
                   * Event hours are flexible based on your needs
                 </p>
