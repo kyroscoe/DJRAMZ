@@ -59,12 +59,6 @@ export default function ContactPage() {
 
   const contactInfo = [
     {
-      icon: 'ri-phone-line',
-      title: 'Phone',
-      content: '(555) DJ-RAMZ1',
-      link: 'tel:5553572691'
-    },
-    {
       icon: 'ri-mail-line',
       title: 'Email',
       content: 'info@rrmobilemusicentertainment.com',
